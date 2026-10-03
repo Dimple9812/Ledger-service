@@ -1,0 +1,17 @@
+{
+  "entryDate": "2026-10-03",
+  "description": "Payment received from customer",
+  "idempotencyKey": "payment-1001",
+  "lines": [
+    {
+      "accountCode": "CASH",
+      "amount": 1000.00,
+      "direction": "DEBIT"
+    },
+    {
+      "accountCode": "REVENUE",
+      "amount": 1000.00,
+      "direction": "CREDIT"
+    }
+  ]
+}
